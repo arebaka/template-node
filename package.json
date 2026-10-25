@@ -32,7 +32,7 @@
 		"clean": "rm -rf dist",
 		"build": "bun run clean && tsc",
 		"start": "bun dist/index.js",
-		"prepublishOnly": "bun run check && bun run build"
+		"prepare": "bun run check && bun run build"
 	},
 	"dependencies": {
 	},
