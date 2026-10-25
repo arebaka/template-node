@@ -1,14 +1,16 @@
 # Build
 dist
 
+# Data
+data
+
 # Dependencies
 node_modules
 jspm_packages
 
 # Dotenv
-.env
-.env.local
-.env.*.local
+.env*
+!.env.example
 
 # Logs
 logs/*
@@ -60,3 +62,6 @@ logs/*
 Session.vim
 Sessionx.vim
 [._]*.un~
+
+# Agents
+.claude

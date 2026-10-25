@@ -1,23 +1,21 @@
 {
-  "compilerOptions": {
-    "target": "es2021",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "declaration": true,
-    "sourceMap": true,
-    "baseUrl": ".",
-    "rootDir": "./src",
-    "outDir": "./dist",
-    "strict": true,
-    "noUnusedParameters": true,
-    "noImplicitOverride": true,
-    "noImplicitReturns": true,
-    "noPropertyAccessFromIndexSignature": false,
-    "noUncheckedIndexedAccess": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-  },
-  "include": [
-    "src/**/*"
-  ]
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"lib": ["ESNext"],
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"verbatimModuleSyntax": true,
+		"skipLibCheck": true,
+		"declaration": true,
+		"sourceMap": false,
+		"rootDir": "src",
+		"outDir": "dist",
+		"declarationDir": "dist"
+	},
+	"include": ["src"]
 }
